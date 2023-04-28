@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NavLink = (props) => {
-  const { address, span, value, toggleMenu } = props;
+  const { address, span, value } = props;
   return (
-    <li onClick={() => toggleMenu()}>
+    <li className="lg:py-9 md:py-10 cursor-pointer md:hover:border-b-4 border-white tracking-widest">
       <Link to={address}>
-        <span className="mr-3 font-bold">{span}</span>
+        <span className="mr-3 font-bold md:hidden lg:inline-block">{span}</span>
         {value}
       </Link>
     </li>
