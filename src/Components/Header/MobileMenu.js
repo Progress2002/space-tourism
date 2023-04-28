@@ -1,8 +1,7 @@
 import React from "react";
 import NavLink from "./NavLink";
 
-const MobileMenu = (props) => {
-  const { toggleMenu } = props;
+const MobileMenu = () => {
   return (
     <nav
       className="text-white absolute w-64 right-0 top-0 h-screen"
@@ -18,25 +17,21 @@ const MobileMenu = (props) => {
           address={"/"}
           span={"00"}
           value={"HOME"}
-          toggleMenu={toggleMenu}
         />
         <NavLink
           address={"/destination"}
           span={"01"}
           value={"DESTINATION"}
-          toggleMenu={toggleMenu}
         />
         <NavLink
           address={"/crew"}
           span={"02"}
           value={"CREW"}
-          toggleMenu={toggleMenu}
         />
         <NavLink
           address={"/technology"}
           span={"03"}
           value={"TECHNOLOGY"}
-          toggleMenu={toggleMenu}
         />
       </ul>
     </nav>
