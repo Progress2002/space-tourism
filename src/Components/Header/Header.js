@@ -13,9 +13,9 @@ const Header = () => {
   return (
     <header className="flex justify-between items-center h-24 sticky md:relative px-8 md:pr-0 lg:top-7">
       <div className="Logo md:ml-9">
-        <img className="h-10 w-10" src={logo} />
+        <img className="h-10 w-10 lg:h-14 lg:w-14" src={logo} />
       </div>
-      <div className="text-gr md:hidden z-10">
+      <div className=" md:hidden z-10">
         <img
           className="h-5 w-6"
           onClick={toggleMenu}
