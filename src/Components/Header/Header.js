@@ -13,10 +13,10 @@ const Header = () => {
   return (
     <header className="flex justify-between items-center h-24 sticky md:relative px-8 md:pr-0 lg:top-7">
       <div className="Logo md:ml-9">
-        <img className="h-12 w-12" src={logo} />
+        <img className="h-10 w-10" src={logo} />
       </div>
       <div className="text-gr md:hidden z-10">
-        <img className="h-7 w-7" onClick={toggleMenu} src={isToggled ? icon_close : hamburger} />
+        <img className="h-5 w-6" onClick={toggleMenu} src={isToggled ? icon_close : hamburger} />
       </div>
       {
         isToggled && <MobileMenu />

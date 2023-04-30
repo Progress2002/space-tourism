@@ -1,4 +1,12 @@
+* {
+  font-family: "Barlow Condensed",sans-serif;
+  font-weight: 400;
+  /* line-height: 25px; */
+}
 
+h3 {
+  font-size: 16px;
+}
 
 #home {
   background-image: url("./starter-code/assets/home/background-home-mobile.jpg");
@@ -16,7 +24,7 @@
   background-image: url("./starter-code/assets/technology/background-technology-mobile.jpg");
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   #home {
     background-image: url("./starter-code/assets/home/background-home-tablet.jpg");
   }
@@ -34,7 +42,7 @@
   }
 }
 
-@media(min-width:1024px) {
+@media (min-width: 1024px) {
   #home {
     background-image: url("./starter-code/assets/home/background-home-desktop.jpg");
   }
