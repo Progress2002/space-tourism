@@ -10,16 +10,14 @@ const Destination = () => {
   const { name, images } = destination;
   const { png } = images;
 
-  const handleSelection = (index) => {
-    setDestination(Data[index])
-  }
+  const handleSelection = (index) => setDestination(Data[index]);
 
   return (
     <div className="min-h-screen bg-no-repeat bg-cover" id="destination">
       <Header />
-      <main className="lg:flex container">
+      <main className="lg:flex container lg:justify-between lg:mt-16">
         <Image img={png} name={name} />
-        <Details data={destination} handleSelection={handleSelection}/>
+        <Details data={destination} handleSelection={handleSelection} />
       </main>
     </div>
   );

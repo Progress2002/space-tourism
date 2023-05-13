@@ -1,6 +1,7 @@
 * {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
+  transition: all 0.1s linear;
 }
 
 h3 {
@@ -39,6 +40,22 @@ nav {
 
 #technology {
   background-image: url("./starter-code/assets/technology/background-technology-mobile.jpg");
+}
+
+.explore-btn::after{
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.25);
+  position: absolute;
+  display: block;
+  top: -27px;
+  left: -30px;
+}
+.explore-btn:hover::after{
+  width: 248px;
+  height: 250px;
 }
 
 @media (min-width: 768px) {
