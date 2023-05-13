@@ -3,7 +3,7 @@ import Header from "../Components/Header/Header";
 
 const Home = () => {
   return (
-    <div className="h-screen bg-no-repeat bg-cover" id="home">
+    <div className="min-h-screen bg-no-repeat bg-cover" id="home">
       <Header />
       <div className=" homepage-body flex flex-col lg:flex-row gap-20 container  text-white text-center mt-10 md:container md:mt-20 md:gap-40 lg:pl-0 lg:text-left lg:justify-between lg:items-center lg:mt-44">
         <div className="">
