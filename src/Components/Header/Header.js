@@ -20,6 +20,7 @@ const Header = () => {
           className="h-5 w-6"
           onClick={toggleMenu}
           src={isToggled ? icon_close : hamburger}
+          alt={isToggled ? "icon_close" : "hamburger_menue"}
         />
       </div>
       {isToggled && <MobileMenu />}
