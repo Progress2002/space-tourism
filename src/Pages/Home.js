@@ -24,7 +24,7 @@ const Home = () => {
         </div>
         <div className="flex justify-center lg:w-full lg:justify-end ">
           <p
-            className="explore-btn relative py-14 px-5 rounded-full w-fit bg-white text-xl tracking-widest md:text-4xl md:py-24 md:px-7 lg:text-3xl lg:leading-9 lg:h-fit lg:py-20 lg:px-5 lg:-mr-7 lg:hover:cursor-pointer"
+            className="explore-btn hover:relative py-14 px-5 rounded-full w-fit bg-white text-xl tracking-widest md:text-4xl md:py-24 md:px-7 lg:text-3xl lg:leading-9 lg:h-fit lg:py-20 lg:px-5 lg:-mr-7 lg:hover:cursor-pointer"
             style={{ color: "#0B0D17", fontFamily: "'Bellefair', serif" }}>
             EXPLORE
           </p>

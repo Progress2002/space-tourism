@@ -22,7 +22,7 @@ const Technology = () => {
         <div className="container">
           <Intro num="03" text="SPACE LAUNCH 101" />
         </div>
-        <div className="lg:flex-row-reverse lg:flex lg:justify-between  lg:ml-60">
+        <div className="lg:flex-row-reverse lg:flex lg:justify-between  lg:ml-60 lg:-mt-6">
           <TechnologyImage
             name={name}
             imgURL={width <= 1024 ? landscape : portrait}

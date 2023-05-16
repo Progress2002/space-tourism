@@ -41,7 +41,7 @@ const Details = (props) => {
           {name.toUpperCase()}
         </h1>
         <div className="flex justify-center mb-9 lg:justify-start">
-          <p className="text-primaryColor text-lg leading-7 text-center  md:w-5/6 md:text-xl md:leading-9 lg:text-left lg:text- lg:w-2/3">
+          <p className="text-primaryColor text-lg leading-7 text-center  md:w-5/6 md:text-xl md:leading-9 lg:text-left lg:text-base lg:w-2/3">
             {description}
           </p>
         </div>
