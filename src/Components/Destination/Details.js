@@ -21,7 +21,7 @@ const Details = (props) => {
       <ul className="flex justify-center text-primaryColor tracking-widest text-lg gap-4 cursor-pointer mt-8 md:mt-11 md:text-xl lg:text-base lg:justify-start lg:mt-14">
         {destinations.map((destination, index) => (
           <li
-            className={`md:p-3 lg:h-10 lg:py-2 lg:px-0 hover:border-b-2 hover:text-white`}
+            className={`md:p-3 lg:h-10 lg:py-2 lg:px-0 hover:border-b-2 hover:text-primaryColor lg:hover:border-gray-500`}
             key={index}
             onClick={() => handleClick(destination, index)}
             style={active === destination ? activeStyle : {}}>
