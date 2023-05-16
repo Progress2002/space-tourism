@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Details = (props) => {
   const { data, handleSelection } = props;
-  const { name, images, id, description } = data;
+  const { name, description } = data;
   const [active, setActive] = useState(1);
 
   const pageNumbers = [1, 2, 3];
@@ -23,7 +23,7 @@ const Details = (props) => {
       <ul className="flex justify-center text-white text-base gap-4 cursor-pointer mt-8 md:mt-11 md:text-xl lg:text-base lg:justify-start lg:mt-14 lg:flex-col">
         {pageNumbers.map((number, index) => (
           <li
-            className={`lg:w-14 lg:h-14 w-11 h-11 md:w-16 md:h-16 flex justify-center items-center hover:text-primaryColor border-2 hover:border-white border-gray-500  text-center rounded-full `}
+            className={`w-11 h-11 md:w-9 md:h-9 flex justify-center items-center hover:text-primaryColor border-2 hover:border-white border-gray-500  text-center rounded-full `}
             key={index}
             onClick={() => handleClick(number, index)}
             style={active === number ? activeStyle : {}}>

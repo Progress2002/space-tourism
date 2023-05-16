@@ -2,6 +2,7 @@
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   transition: all 0.1s linear;
+  box-sizing: border-box;
 }
 
 h3 {
@@ -50,12 +51,12 @@ nav {
   background-color: rgba(255, 255, 255, 0.25);
   position: absolute;
   display: block;
-  top: -27px;
-  left: -30px;
+  top: -24px;
+  left: -27px;
 }
 .explore-btn:hover::after{
-  width: 248px;
-  height: 250px;
+  width: 190px;
+  height: 189px;
 }
 
 @media (min-width: 768px) {
@@ -66,6 +67,7 @@ nav {
 
   #crew {
     background-image: url("./starter-code/assets/crew/background-crew-tablet.jpg");
+    min-height: 100vh;
   }
 
   #destination {
@@ -74,6 +76,21 @@ nav {
 
   #technology {
     background-image: url("./starter-code/assets/technology/background-technology-tablet.jpg");
+  }
+
+  .explore-btn::after{
+    top: -35px;
+    left: -34px;
+  }
+
+  .explore-btn:hover::after{
+    width: 305px;
+    height: 305px;
+  }
+
+  .crew-img {
+    width: 539.51px;
+    height: 432px;
   }
 }
 
@@ -92,5 +109,20 @@ nav {
 
   #technology {
     background-image: url("./starter-code/assets/technology/background-technology-desktop.jpg");
+  }
+
+  .explore-btn::after{
+    top: -25px;
+    left: -34px;
+  }
+
+  .explore-btn:hover::after{
+    width: 254px;
+    height: 255px;
+  }
+
+  .crew-img {
+    width: 615.57px;
+    height: 407px;
   }
 }
