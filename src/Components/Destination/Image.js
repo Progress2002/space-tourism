@@ -11,8 +11,7 @@ const Image = (props) => {
         <img
           src={img}
           alt={name}
-          className="w-48 h-48 md:w-64 md:h-64 block lg:w-80 lg:h-80"
-          style={{animation: 'rotate 20s linear infinite'}}
+          className="destination-img w-48 h-48 md:w-64 md:h-64 block lg:w-80 lg:h-80"
         />
       </div>
     </section>

@@ -64,16 +64,6 @@ nav {
   height: 189px;
 }
 
-@keyframes rotate {
-  /* Define the animation from 0 degrees to 360 degrees */
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 @media (min-width: 768px) {
 
   #home {
@@ -106,6 +96,19 @@ nav {
   .crew-img {
     width: 539.51px;
     height: 432px;
+  }
+
+  .destination-img {
+    animation: rotate 20s linear infinite;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
 
