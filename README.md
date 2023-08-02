@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://space-tourism-lozc.onrender.com)
+- Live Site URL: [Live Demo](https://space-tourism-lozc.onrender.com)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
