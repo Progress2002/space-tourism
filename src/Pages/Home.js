@@ -1,7 +1,10 @@
 import React from "react";
 import Header from "../Components/Header/Header";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate()
+  const handleClick = () => navigate("/destination");
   return (
     <div className="min-h-screen bg-no-repeat bg-cover" id="home">
       <Header />
@@ -25,6 +28,7 @@ const Home = () => {
         <div className="flex justify-center lg:w-full lg:justify-end ">
           <p
             className="explore-btn hover:relative py-14 px-5 rounded-full w-fit bg-white text-xl tracking-widest md:text-4xl md:py-24 md:px-7 lg:text-3xl lg:leading-9 lg:h-fit lg:py-20 lg:px-5 lg:-mr-7 lg:hover:cursor-pointer"
+            onClick={handleClick}
             style={{ color: "#0B0D17", fontFamily: "'Bellefair', serif" }}>
             EXPLORE
           </p>
